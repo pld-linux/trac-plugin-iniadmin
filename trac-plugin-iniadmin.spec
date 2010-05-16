@@ -11,6 +11,7 @@ Source0:	%{plugin}plugin.zip
 # Source0-md5:	a53e12a5746a80f79d4d0a45c65b71d9
 URL:		http://trac-hacks.org/wiki/IniAdminPlugin
 BuildRequires:	python-devel
+BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
